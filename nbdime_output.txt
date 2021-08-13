@@ -1,0 +1,43 @@
+nbdiff notebook.ipynb old_notebook.ipynb
+--- notebook.ipynb  2021-08-13 16:12:00.478714
++++ old_notebook.ipynb  2021-08-13 16:26:22.487417
+[34m## replaced /cells/2/execution_count:[0m
+[31m-  5
+[32m+  2
+
+[0m[34m## modified /cells/2/outputs/0/data/text/plain:[0m
+[31m-  [<matplotlib.lines.Line2D at 0x130e389d0>]
+[32m+  [<matplotlib.lines.Line2D at 0x1307c1970>]
+
+[0m[34m## replaced /cells/2/outputs/0/execution_count:[0m
+[31m-  5
+[32m+  2
+
+[0m[34m## inserted before /cells/2/outputs/1:[0m
+[32m+  output:
+[32m+    output_type: display_data
+[32m+    data:
+[32m+      image/png: iVBORw0K...<snip base64, md5=ecea473e60784aa2...>
+[32m+      text/plain: <Figure size 432x288 with 1 Axes>
+[32m+    metadata (unknown keys):
+[32m+      needs_background: light
+
+[0m[34m## deleted /cells/2/outputs/1:[0m
+[31m-  output:
+[31m-    output_type: display_data
+[31m-    data:
+[31m-      image/png: iVBORw0K...<snip base64, md5=13bfe1623a694f6d...>
+[31m-      text/plain: <Figure size 432x288 with 1 Axes>
+[31m-    metadata (unknown keys):
+[31m-      needs_background: light
+
+[0m[34m## modified /cells/2/source:[0m
+[36m@@ -1,4 +1,4 @@[m
+ x = np.linspace(0, 4*np.pi,50)[m
+[31m-y = 2 * np.sin(x)[m
+[32m+[m[32my = np.sin(x)[m
+ [m
+ plt.plot(x, y)[m
+[m
+
+[0m
